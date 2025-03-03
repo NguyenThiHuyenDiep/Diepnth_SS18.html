@@ -1,16 +1,16 @@
-let mathMark = parseFloat(prompt("Enter math mark: "));
-let vietMark = parseFloat(prompt("Enter vnm mark: "));
-let engMark = parseFloat(prompt("Enter english mark: "));
+let mathMark = parseFloat(prompt("điểm môn toán: "));
+let vietMark = parseFloat(prompt("điểm môn văn: "));
+let engMark = parseFloat(prompt("điểm môn anh: "));
 let avg = (mathMark + vietMark + engMark) / 3;
 if (avg >= 8.0){
     alert("Excellent");
 }
 else if (avg >= 6.5 && avg < 8.0){
-    alert("Good");
+    alert("Giỏi");
 }
 else if (avg >=5.0 && avg < 6.5){
-    alert("average");
+    alert("khá");
 }
 else if ( avg > 0 && avg < 5.0){
-    alert("weak");
+    alert("trung bình");
 }

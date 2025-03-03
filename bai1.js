@@ -1,7 +1,7 @@
-let num = parseFloat(prompt("Enter a random number: "));
+let num = parseFloat(prompt("Nhập số nguyên: "));
 if (num % 2 == 0){
-    alert(num + " " + "is even");
+    alert(num + " " + "chẵn");
 }
 else if (num % 2 != 0){
-    alert(num + " " + "is odd");
+    alert(num + " " + "is lẻ");
 }

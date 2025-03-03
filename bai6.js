@@ -1,8 +1,8 @@
-let x = parseFloat(prompt("Enter random year: "));
+let x = parseFloat(prompt("Nhập một năm bất kì: "));
 
 if (x % 4 == 0 && x % 100 != 0 || x % 100 == 0 && x % 400 == 0){
-    alert(x + " is a leap year");
+    alert(x + " là năm nhuận");
 }
 else{
-    alert(x + " is not a leap year");
+    alert(x + " Không phải năm nhuận");
 }

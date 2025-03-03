@@ -1,13 +1,13 @@
-let exp = parseInt(prompt("Enter year experiences: "));
+let exp = parseInt(prompt("Nhập số năm"));
 if (exp < 1){
-    alert("Fresher");
+    alert("Nhân viên mới");
 }
 else if (exp >=1 && exp <= 3){
-    alert("Juniour");
+    alert("Nv có kinh nghiệm");
 }
 else if (exp >= 4 && exp <= 6){
-    alert("Seniour");
+    alert("Chuyên viên");
 }
 else{
-    alert("PM");
+    alert("Quản lí");
 }

@@ -1,33 +1,33 @@
-let digit = parseInt(prompt("Enter a digit: "));
+let digit = parseInt(prompt("Nhập số từ 0-9: "));
 switch (digit){
     case 0:
-        alert("Zero")
+        alert("0")
         break;
     case 1:
-        alert("One");
+        alert("1");
         break;
     case 2:
-        alert("Two");
+        alert("2");
         break;
     case 3:
-        alert("Three");
+        alert("3");
         break;
     case 4:
-        alert("Four")
+        alert("4")
         break;
     case 5:
-        alert("Five");
+        alert("5");
         break;
     case 6:
-        alert("Six");
+        alert("6");
         break;
     case 7:
-        alert("Seven");
+        alert("7");
         break;
     case 8:
-        alert("Eight");
+        alert("8");
         break;
     case 9:
-        alert("Nine");
+        alert("9");
         break;
 } 
